@@ -250,7 +250,7 @@ definition-> {clause['text']}
 """
                             all_clauses_text += formatted_clause
                             
-                        st.markdown("#### All Clauses & Definitions:")
+                        st.markdown("#### All Clauses from the document:")
                         # The st.text_area component is naturally resizable by the user via the bottom-right corner drag handle
                         st.text_area(
                             "Raw Policy Segments",
